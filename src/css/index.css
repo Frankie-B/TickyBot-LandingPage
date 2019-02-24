@@ -27,7 +27,13 @@ h6 {
   margin-bottom: 1rem;
 }
 
-/* Header Section */
+/* Section */
+
+section {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  padding: 3% 9%; 
+}
 
 /* Navigation Bar */
 
@@ -81,8 +87,35 @@ h6 {
   text-align: center;
 }
 
+#mainText a {
+  margin: 0 auto;
+}
+
 .mainButton {
-  padding: 3%;
+  padding: 3% 7%;
+}
+
+.button-img {
+  margin: 2px;
+}
+
+/* Page Titles */
+
+.pageTitle {
+  font-size: 2.1rem;
+  text-align: center;
+  line-height: 1.25;
+  margin-bottom: 0rem;
+  
+}
+
+hr {
+  color: #55c0ec;
+  background-color: #55c0ec;
+  height: 3px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 150px;
 }
 
 /* About Section */
