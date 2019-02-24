@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Gloabl styles */
-
 html {
   scroll-behavior: smooth;
+
 }
 
 body {
@@ -32,7 +32,7 @@ h6 {
 section {
   font-size: 1.3rem;
   line-height: 1.3;
-  padding: 3% 9%; 
+  padding: 3% 9%;
 }
 
 /* Navigation Bar */
@@ -92,7 +92,7 @@ section {
 }
 
 .mainButton {
-  padding: 3% 7%;
+  padding: 1% 7%;
 }
 
 .button-img {
@@ -106,7 +106,7 @@ section {
   text-align: center;
   line-height: 1.25;
   margin-bottom: 0rem;
-  
+
 }
 
 hr {
@@ -122,6 +122,54 @@ hr {
 
 /* Features Section */
 
+.pageFeatures {
+  background-color: #90ddaa;
+}
+
+.card {
+  background-color: #40596b;
+  margin-bottom: 3rem;
+  padding: 0;
+  text-align: center;
+}
+
+.card-img {
+  height: 40%;
+  margin-top: 100px;
+}
+
+.cardDescription {
+  background-color: #fafafa;
+  padding: 1rem;
+  width: 100%;
+}
+
 /* Call to Action Section */
 
+.pageCta {
+  text-align: center;
+}
+
+.cta-text p {
+  margin: 1%;
+}
+
 /* Footer section */
+
+.footer {
+  background-color: #40596b;
+  bottom: opx;
+  position: absolute;
+  width: 100vw;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.footer .container-fluid p {
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 0.75;
+  text-align: center;
+}
