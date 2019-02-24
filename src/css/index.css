@@ -15,6 +15,7 @@ body {
   font-family: Signika, Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.5
+  
 }
 
 h1,
@@ -87,16 +88,16 @@ section {
   text-align: center;
 }
 
-#mainText a {
+.container-fluid .mainDescription a {
   margin: 0 auto;
 }
-
 .mainButton {
-  padding: 1% 7%;
+  padding: 1% 3%;
 }
 
 .button-img {
   margin: 2px;
+  margin-right: 1rem;
 }
 
 /* Page Titles */
@@ -141,17 +142,21 @@ hr {
 .cardDescription {
   background-color: #fafafa;
   padding: 1rem;
-  width: 100%;
 }
 
 /* Call to Action Section */
+
+#cta a {
+  margin: 3rem;
+}
 
 .pageCta {
   text-align: center;
 }
 
-.cta-text p {
-  margin: 1%;
+.ctaMainText {
+  margin: 0 auto;
+  width: 50%;
 }
 
 /* Footer section */
@@ -161,6 +166,7 @@ hr {
   bottom: opx;
   position: absolute;
   width: 100vw;
+  z-index: -1;
 }
 
 .fa-heart {
@@ -172,4 +178,20 @@ hr {
   font-size: 0.8rem;
   line-height: 0.75;
   text-align: center;
+}
+
+/* Back to top button */
+.back-to-top {
+  background-color: #ffd05a;
+  border-radius: 4px;
+  bottom: 1rem;
+  overflow: hidden;  
+  padding: .5rem .5rem .5rem;
+  position: fixed;
+  right: 1rem;
+  z-index: 999;
+}
+
+.back-to-top img {
+  width: 2rem;
 }
