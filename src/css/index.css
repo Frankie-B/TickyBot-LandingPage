@@ -15,7 +15,6 @@ body {
   font-family: Signika, Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.5
-  
 }
 
 h1,
@@ -68,6 +67,7 @@ section {
 .pageMain {
   background-color: #55c0ec;
   padding: 3rem;
+  text-align: center;
 }
 
 .mainDescription h1 {
@@ -88,10 +88,8 @@ section {
   text-align: center;
 }
 
-.container-fluid .mainDescription a {
-  margin: 0 auto;
-}
 .mainButton {
+  margin: auto;
   padding: 1% 3%;
 }
 
@@ -185,7 +183,7 @@ hr {
   background-color: #ffd05a;
   border-radius: 4px;
   bottom: 1rem;
-  overflow: hidden;  
+  overflow: hidden;
   padding: .5rem .5rem .5rem;
   position: fixed;
   right: 1rem;
