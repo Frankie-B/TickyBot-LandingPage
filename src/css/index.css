@@ -95,6 +95,7 @@ section {
 }
 
 .button-img {
+  height: 50px;
   margin: 2px;
   margin-right: 1rem;
 }
